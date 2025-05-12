@@ -4,6 +4,11 @@
   <tr>
     <td align="center" width="1000"><img src="./icons/angular.svg" height="48" width="48"><br>Angular</td>
     <td align="center" width="1000"><img src="./icons/astro.svg" height="48" width="48"><br>Astro</td>
+    <td align="center" width="1000"><img src="./icons/aws.svg" height="48" width="48"><br>AWS</td>
+  </tr>
+  <tr>
+    <td align="center" width="1000"><img src="./icons/azure.svg" height="48" width="48"><br>Azure</td>
+    <td align="center" width="1000"><img src="./icons/babel.svg" height="48" width="48"><br>Babel</td>
     <td align="center" width="1000"><img src="./icons/biome.svg" height="48" width="48"><br>Biome</td>
   </tr>
   <tr>
@@ -62,7 +67,7 @@
     <td align="center" width="1000"><img src="./icons/html.svg" height="48" width="48"><br>HTML</td>
   </tr>
   <tr>
-    <td align="center" width="1000"><img src="./icons/huggingface.svg" height="48" width="48"><br>Hugging Face</td>
+    <td align="center" width="1000"><img src="./icons/huggingface.svg" height="48" width="48"><br>HuggingFace</td>
     <td align="center" width="1000"><img src="./icons/i18next.svg" height="48" width="48"><br>i18next</td>
     <td align="center" width="1000"><img src="./icons/inlang.svg" height="48" width="48"><br>inlang</td>
   </tr>
@@ -72,12 +77,17 @@
     <td align="center" width="1000"><img src="./icons/jest.svg" height="48" width="48"><br>Jest</td>
   </tr>
   <tr>
+    <td align="center" width="1000"><img src="./icons/kernelsu.svg" height="48" width="48"><br>KernelSU</td>
     <td align="center" width="1000"><img src="./icons/kotlin.svg" height="48" width="48"><br>Kotlin</td>
     <td align="center" width="1000"><img src="./icons/legend.svg" height="48" width="48"><br>Legend</td>
-    <td align="center" width="1000"><img src="./icons/lua.svg" height="48" width="48"><br>Lua</td>
   </tr>
   <tr>
+    <td align="center" width="1000"><img src="./icons/lsposed.svg" height="48" width="48"><br>LSPosed</td>
+    <td align="center" width="1000"><img src="./icons/lua.svg" height="48" width="48"><br>Lua</td>
     <td align="center" width="1000"><img src="./icons/lynx.svg" height="48" width="48"><br>Lynx</td>
+  </tr>
+  <tr>
+    <td align="center" width="1000"><img src="./icons/magisk.svg" height="48" width="48"><br>Magisk</td>
     <td align="center" width="1000"><img src="./icons/mdn.svg" height="48" width="48"><br>MDN</td>
     <td align="center" width="1000"><img src="./icons/mongodb.svg" height="48" width="48"><br>MongoDB</td>
   </tr>
@@ -98,7 +108,7 @@
   </tr>
   <tr>
     <td align="center" width="1000"><img src="./icons/php.svg" height="48" width="48"><br>PHP</td>
-    <td align="center" width="1000"><img src="./icons/pinia-plugin-persistedstate.svg" height="48" width="48"><br>Pinia Persisted State</td>
+    <td align="center" width="1000"><img src="./icons/pinia-plugin-persistedstate.svg" height="48" width="48"><br>Pinia Plugin PersistedState</td>
     <td align="center" width="1000"><img src="./icons/pinia.svg" height="48" width="48"><br>Pinia</td>
   </tr>
   <tr>

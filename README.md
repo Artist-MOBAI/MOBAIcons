@@ -32,53 +32,58 @@
     <td align="center" width="1000"><img src="./icons/framermotion.svg" height="48" width="48"><br>Framer Motion</td>
   </tr>
   <tr>
+    <td align="center" width="1000"><img src="./icons/fusionapp.svg" height="48" width="48"><br>Fusion App</td>
     <td align="center" width="1000"><img src="./icons/gin.svg" height="48" width="48"><br>Gin</td>
     <td align="center" width="1000"><img src="./icons/git.svg" height="48" width="48"><br>Git</td>
-    <td align="center" width="1000"><img src="./icons/github.svg" height="48" width="48"><br>GitHub</td>
   </tr>
   <tr>
+    <td align="center" width="1000"><img src="./icons/github.svg" height="48" width="48"><br>GitHub</td>
     <td align="center" width="1000"><img src="./icons/gitlab.svg" height="48" width="48"><br>GitLab</td>
     <td align="center" width="1000"><img src="./icons/go.svg" height="48" width="48"><br>Go</td>
+  </tr>
+  <tr>
     <td align="center" width="1000"><img src="./icons/grpc.svg" height="48" width="48"><br>gRPC</td>
-  </tr>
-  <tr>
-    <td align="center" width="1000"><img src="./icons/headlessui.svg" height="48" width="48"><br>HeadlessUI</td>
+    <td align="center" width="1000"><img src="./icons/headlessui.svg" height="48" width="48"><br>Headless UI</td>
     <td align="center" width="1000"><img src="./icons/html.svg" height="48" width="48"><br>HTML</td>
-    <td align="center" width="1000"><img src="./icons/inlang.svg" height="48" width="48"><br>Inlang</td>
   </tr>
   <tr>
+    <td align="center" width="1000"><img src="./icons/inlang.svg" height="48" width="48"><br>inlang</td>
     <td align="center" width="1000"><img src="./icons/java.svg" height="48" width="48"><br>Java</td>
     <td align="center" width="1000"><img src="./icons/javascript.svg" height="48" width="48"><br>JavaScript</td>
-    <td align="center" width="1000"><img src="./icons/kotlin.svg" height="48" width="48"><br>Kotlin</td>
   </tr>
   <tr>
+    <td align="center" width="1000"><img src="./icons/kotlin.svg" height="48" width="48"><br>Kotlin</td>
     <td align="center" width="1000"><img src="./icons/legend.svg" height="48" width="48"><br>Legend</td>
     <td align="center" width="1000"><img src="./icons/lua.svg" height="48" width="48"><br>Lua</td>
-    <td align="center" width="1000"><img src="./icons/lynx.svg" height="48" width="48"><br>Lynx</td>
   </tr>
   <tr>
+    <td align="center" width="1000"><img src="./icons/lynx.svg" height="48" width="48"><br>Lynx</td>
     <td align="center" width="1000"><img src="./icons/mdn.svg" height="48" width="48"><br>MDN</td>
     <td align="center" width="1000"><img src="./icons/mongodb.svg" height="48" width="48"><br>MongoDB</td>
-    <td align="center" width="1000"><img src="./icons/mysql.svg" height="48" width="48"><br>MySQL</td>
   </tr>
   <tr>
+    <td align="center" width="1000"><img src="./icons/mysql.svg" height="48" width="48"><br>MySQL</td>
     <td align="center" width="1000"><img src="./icons/nestjs.svg" height="48" width="48"><br>NestJS</td>
     <td align="center" width="1000"><img src="./icons/netlify.svg" height="48" width="48"><br>Netlify</td>
+  </tr>
+  <tr>
     <td align="center" width="1000"><img src="./icons/nextjs.svg" height="48" width="48"><br>Next.js</td>
-  </tr>
-  <tr>
     <td align="center" width="1000"><img src="./icons/nodejs.svg" height="48" width="48"><br>Node.js</td>
-    <td align="center" width="1000"><img src="./icons/npm.svg" height="48" width="48"><br>NPM</td>
-    <td align="center" width="1000"><img src="./icons/nuxtjs.svg" height="48" width="48"><br>Nuxt.js</td>
+    <td align="center" width="1000"><img src="./icons/npm.svg" height="48" width="48"><br>npm</td>
   </tr>
   <tr>
+    <td align="center" width="1000"><img src="./icons/nuxtjs.svg" height="48" width="48"><br>Nuxt.js</td>
+    <td align="center" width="1000"><img src="./icons/photo-editor.svg" height="48" width="48"><br>Photo Editor</td>
     <td align="center" width="1000"><img src="./icons/php.svg" height="48" width="48"><br>PHP</td>
+  </tr>
+  <tr>
     <td align="center" width="1000"><img src="./icons/pinia-plugin-persistedstate.svg" height="48" width="48"><br>Pinia Persisted State</td>
     <td align="center" width="1000"><img src="./icons/pinia.svg" height="48" width="48"><br>Pinia</td>
+    <td align="center" width="1000"><img src="./icons/pnpm.svg" height="48" width="48"><br>pnpm</td>
   </tr>
   <tr>
-    <td align="center" width="1000"><img src="./icons/pnpm.svg" height="48" width="48"><br>PNPM</td>
     <td align="center" width="1000"><img src="./icons/postgresql.svg" height="48" width="48"><br>PostgreSQL</td>
+    <td align="center" width="1000"><img src="./icons/postman.svg" height="48" width="48"><br>Postman</td>
     <td align="center" width="1000"><img src="./icons/prettier.svg" height="48" width="48"><br>Prettier</td>
   </tr>
   <tr>

@@ -7,8 +7,13 @@
     <td align="center" width="1000"><img src="./icons/c.svg" height="48" width="48"><br>C</td>
   </tr>
   <tr>
+    <td align="center" width="1000"><img src="./icons/clerk.svg" height="48" width="48"><br>Clerk</td>
+    <td align="center" width="1000"><img src="./icons/cloudflare.svg" height="48" width="48"><br>Cloudflare</td>
     <td align="center" width="1000"><img src="./icons/cpp.svg" height="48" width="48"><br>C++</td>
+  </tr>
+  <tr>
     <td align="center" width="1000"><img src="./icons/css.svg" height="48" width="48"><br>CSS</td>
+    <td align="center" width="1000"><img src="./icons/dify.svg" height="48" width="48"><br>Dify</td>
     <td align="center" width="1000"><img src="./icons/dioxus.svg" height="48" width="48"><br>Dioxus</td>
   </tr>
   <tr>
@@ -74,36 +79,41 @@
   <tr>
     <td align="center" width="1000"><img src="./icons/react.svg" height="48" width="48"><br>React</td>
     <td align="center" width="1000"><img src="./icons/reactbits.svg" height="48" width="48"><br>ReactBits</td>
-    <td align="center" width="1000"><img src="./icons/redis.svg" height="48" width="48"><br>Redis</td>
+    <td align="center" width="1000"><img src="./icons/reactnavigation.svg" height="48" width="48"><br>React Navigation</td>
   </tr>
   <tr>
+    <td align="center" width="1000"><img src="./icons/redis.svg" height="48" width="48"><br>Redis</td>
     <td align="center" width="1000"><img src="./icons/remix.svg" height="48" width="48"><br>Remix</td>
     <td align="center" width="1000"><img src="./icons/rust.svg" height="48" width="48"><br>Rust</td>
-    <td align="center" width="1000"><img src="./icons/salvo.svg" height="48" width="48"><br>Salvo</td>
   </tr>
   <tr>
+    <td align="center" width="1000"><img src="./icons/salvo.svg" height="48" width="48"><br>Salvo</td>
     <td align="center" width="1000"><img src="./icons/solid.svg" height="48" width="48"><br>Solid</td>
     <td align="center" width="1000"><img src="./icons/supabase.svg" height="48" width="48"><br>Supabase</td>
-    <td align="center" width="1000"><img src="./icons/svelte.svg" height="48" width="48"><br>Svelte</td>
   </tr>
   <tr>
+    <td align="center" width="1000"><img src="./icons/svelte.svg" height="48" width="48"><br>Svelte</td>
     <td align="center" width="1000"><img src="./icons/tailwindcss.svg" height="48" width="48"><br>TailwindCSS</td>
     <td align="center" width="1000"><img src="./icons/tauri.svg" height="48" width="48"><br>Tauri</td>
-    <td align="center" width="1000"><img src="./icons/trpc.svg" height="48" width="48"><br>tRPC</td>
   </tr>
   <tr>
+    <td align="center" width="1000"><img src="./icons/trpc.svg" height="48" width="48"><br>tRPC</td>
     <td align="center" width="1000"><img src="./icons/turbo.svg" height="48" width="48"><br>Turbo</td>
     <td align="center" width="1000"><img src="./icons/typescript.svg" height="48" width="48"><br>TypeScript</td>
-    <td align="center" width="1000"><img src="./icons/unocss.svg" height="48" width="48"><br>UnoCSS</td>
   </tr>
   <tr>
+    <td align="center" width="1000"><img src="./icons/unocss.svg" height="48" width="48"><br>UnoCSS</td>
+    <td align="center" width="1000"><img src="./icons/vercel.svg" height="48" width="48"><br>Vercel</td>
     <td align="center" width="1000"><img src="./icons/vite.svg" height="48" width="48"><br>Vite</td>
+  </tr>
+  <tr>
     <td align="center" width="1000"><img src="./icons/vitest.svg" height="48" width="48"><br>Vitest</td>
     <td align="center" width="1000"><img src="./icons/vue-data-ui.svg" height="48" width="48"><br>Vue Data UI</td>
+    <td align="center" width="1000"><img src="./icons/vue-vine.svg" height="48" width="48"><br>Vue Vine</td>
   </tr>
   <tr>
-    <td align="center" width="1000"><img src="./icons/vue-vine.svg" height="48" width="48"><br>Vue Vine</td>
     <td align="center" width="1000"><img src="./icons/vue.svg" height="48" width="48"><br>Vue</td>
     <td align="center" width="1000"><img src="./icons/zod.svg" height="48" width="48"><br>Zod</td>
+    <td align="center" width="1000"><img src="./icons/zustand.svg" height="48" width="48"><br>Zustand</td>
   </tr>
 </table>

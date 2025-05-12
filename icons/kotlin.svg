@@ -1,7 +1,6 @@
 <svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_14_139)">
-<rect width="256" height="256" fill="white"/>
-<rect width="256" height="256" fill="#19191C"/>
+<rect width="256" height="256" fill="#242932"/>
 <path d="M218 218H38V38H218L128 128L218 218Z" fill="url(#paint0_linear_14_139)"/>
 </g>
 <defs>

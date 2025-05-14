@@ -10,11 +10,11 @@
 <defs>
 <linearGradient id="paint0_linear_88_663" x1="61.043" y1="82.2562" x2="93.3943" y2="116.714" gradientUnits="userSpaceOnUse">
 <stop offset="0.0939" stop-color="#58D09E"/>
-<stop offset="0.9883" stop-color="#58D09E" stop-opacity="0"/>
+<stop offset="0.9883" stop-color="#232932" stop-opacity="0"/>
 </linearGradient>
 <linearGradient id="paint1_linear_88_663" x1="22.5475" y1="146.84" x2="84.154" y2="163.181" gradientUnits="userSpaceOnUse">
 <stop offset="0.0774" stop-color="#58D09E"/>
-<stop offset="0.7617" stop-color="#1B1E2E"/>
+<stop offset="0.7617" stop-color="white"/>
 </linearGradient>
 <clipPath id="clip0_88_663">
 <rect width="210" height="85" fill="white" transform="translate(23 85)"/>

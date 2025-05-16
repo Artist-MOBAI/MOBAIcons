@@ -3,6 +3,10 @@
   "module": "index.ts",
   "type": "module",
   "license": "MIT",
+  "scripts": {
+    "dev": "bun index.ts",
+    "build": "bun build.ts"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },

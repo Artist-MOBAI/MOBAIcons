@@ -1,1 +1,3 @@
-console.log("todo");
+import { run } from "./test";
+
+run();

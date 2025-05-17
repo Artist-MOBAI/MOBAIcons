@@ -118,7 +118,7 @@
     <td align="center" width="1000"><img src="./icons/firebase-studio.svg" height="48" width="48"><br>Firebase Studio</td>
   </tr>
   <tr>
-    <td align="center" width="1000"><img src="./icons/flashlist.svg" height="48" width="48"><br>FlashList</td>
+    <td align="center" width="1000"><img src="./icons/flashlist.svg" height="48" width="48"><br>Flashlist</td>
     <td align="center" width="1000"><img src="./icons/flask.svg" height="48" width="48"><br>Flask</td>
   </tr>
   <tr>
@@ -135,7 +135,7 @@
   </tr>
   <tr>
     <td align="center" width="1000"><img src="./icons/front.svg" height="48" width="48"><br>Front</td>
-    <td align="center" width="1000"><img src="./icons/fusionapp.svg" height="48" width="48"><br>FusionApp</td>
+    <td align="center" width="1000"><img src="./icons/fusionapp.svg" height="48" width="48"><br>Fusion App</td>
   </tr>
   <tr>
     <td align="center" width="1000"><img src="./icons/gatsby.svg" height="48" width="48"><br>Gatsby</td>
@@ -162,7 +162,7 @@
     <td align="center" width="1000"><img src="./icons/gsap.svg" height="48" width="48"><br>GSAP</td>
   </tr>
   <tr>
-    <td align="center" width="1000"><img src="./icons/hcaptcha.svg" height="48" width="48"><br>HCaptcha</td>
+    <td align="center" width="1000"><img src="./icons/hcaptcha.svg" height="48" width="48"><br>Hcaptcha</td>
     <td align="center" width="1000"><img src="./icons/headlessui.svg" height="48" width="48"><br>Headless UI</td>
   </tr>
   <tr>
@@ -179,7 +179,7 @@
   </tr>
   <tr>
     <td align="center" width="1000"><img src="./icons/huggingface.svg" height="48" width="48"><br>Hugging Face</td>
-    <td align="center" width="1000"><img src="./icons/i18next.svg" height="48" width="48"><br>I18next</td>
+    <td align="center" width="1000"><img src="./icons/i18next.svg" height="48" width="48"><br>I18NEXT</td>
   </tr>
   <tr>
     <td align="center" width="1000"><img src="./icons/idea.svg" height="48" width="48"><br>IDEA</td>
@@ -191,14 +191,14 @@
   </tr>
   <tr>
     <td align="center" width="1000"><img src="./icons/java.svg" height="48" width="48"><br>Java</td>
-    <td align="center" width="1000"><img src="./icons/javascript.svg" height="48" width="48"><br>JavaScript</td>
+    <td align="center" width="1000"><img src="./icons/javascript.svg" height="48" width="48"><br>Javascript</td>
   </tr>
   <tr>
     <td align="center" width="1000"><img src="./icons/jest.svg" height="48" width="48"><br>Jest</td>
     <td align="center" width="1000"><img src="./icons/jetbrains.svg" height="48" width="48"><br>Jetbrains</td>
   </tr>
   <tr>
-    <td align="center" width="1000"><img src="./icons/jquery.svg" height="48" width="48"><br>jQuery</td>
+    <td align="center" width="1000"><img src="./icons/jquery.svg" height="48" width="48"><br>Jquery</td>
     <td align="center" width="1000"><img src="./icons/json.svg" height="48" width="48"><br>JSON</td>
   </tr>
   <tr>
@@ -247,7 +247,7 @@
   </tr>
   <tr>
     <td align="center" width="1000"><img src="./icons/mgx.svg" height="48" width="48"><br>MGX</td>
-    <td align="center" width="1000"><img src="./icons/microsoft-todo.svg" height="48" width="48"><br>Microsoft To Do</td>
+    <td align="center" width="1000"><img src="./icons/microsoft-todo.svg" height="48" width="48"><br>Microsoft Todo</td>
   </tr>
   <tr>
     <td align="center" width="1000"><img src="./icons/mintlify.svg" height="48" width="48"><br>Mintlify</td>
@@ -263,7 +263,7 @@
   </tr>
   <tr>
     <td align="center" width="1000"><img src="./icons/neovim.svg" height="48" width="48"><br>Neovim</td>
-    <td align="center" width="1000"><img src="./icons/nestjs.svg" height="48" width="48"><br>NestJS</td>
+    <td align="center" width="1000"><img src="./icons/nestjs.svg" height="48" width="48"><br>Nest.js</td>
   </tr>
   <tr>
     <td align="center" width="1000"><img src="./icons/netlify.svg" height="48" width="48"><br>Netlify</td>
@@ -295,7 +295,7 @@
   </tr>
   <tr>
     <td align="center" width="1000"><img src="./icons/outlook.svg" height="48" width="48"><br>Outlook</td>
-    <td align="center" width="1000"><img src="./icons/pandacss.svg" height="48" width="48"><br>PandaCSS</td>
+    <td align="center" width="1000"><img src="./icons/pandacss.svg" height="48" width="48"><br>Panda CSS</td>
   </tr>
   <tr>
     <td align="center" width="1000"><img src="./icons/photo-editor.svg" height="48" width="48"><br>Photo Editor</td>
@@ -319,7 +319,7 @@
   </tr>
   <tr>
     <td align="center" width="1000"><img src="./icons/postman.svg" height="48" width="48"><br>Postman</td>
-    <td align="center" width="1000"><img src="./icons/powershell.svg" height="48" width="48"><br>Powershell</td>
+    <td align="center" width="1000"><img src="./icons/powershell.svg" height="48" width="48"><br>PowerShell</td>
   </tr>
   <tr>
     <td align="center" width="1000"><img src="./icons/powertoys.svg" height="48" width="48"><br>PowerToys</td>
@@ -383,7 +383,7 @@
   </tr>
   <tr>
     <td align="center" width="1000"><img src="./icons/rust.svg" height="48" width="48"><br>Rust</td>
-    <td align="center" width="1000"><img src="./icons/rxjs.svg" height="48" width="48"><br>RxJS</td>
+    <td align="center" width="1000"><img src="./icons/rxjs.svg" height="48" width="48"><br>RXJS</td>
   </tr>
   <tr>
     <td align="center" width="1000"><img src="./icons/salvo.svg" height="48" width="48"><br>Salvo</td>
@@ -398,8 +398,8 @@
     <td align="center" width="1000"><img src="./icons/socket.svg" height="48" width="48"><br>Socket</td>
   </tr>
   <tr>
-    <td align="center" width="1000"><img src="./icons/solidjs.svg" height="48" width="48"><br>SolidJS</td>
-    <td align="center" width="1000"><img src="./icons/soybean-sec.svg" height="48" width="48"><br>Soybean SEC</td>
+    <td align="center" width="1000"><img src="./icons/solidjs.svg" height="48" width="48"><br>Solid.js</td>
+    <td align="center" width="1000"><img src="./icons/soybean-sec.svg" height="48" width="48"><br>Soybean Sec</td>
   </tr>
   <tr>
     <td align="center" width="1000"><img src="./icons/space.svg" height="48" width="48"><br>Space</td>
@@ -410,8 +410,16 @@
     <td align="center" width="1000"><img src="./icons/sst.svg" height="48" width="48"><br>SST</td>
   </tr>
   <tr>
-    <td align="center" width="1000"><img src="./icons/stackblitz.svg" height="48" width="48"><br>Stackblitz</td>
+    <td align="center" width="1000"><img src="./icons/stack-overflow.svg" height="48" width="48"><br>Stack Overflow</td>
+    <td align="center" width="1000"><img src="./icons/stackblitz.svg" height="48" width="48"><br>StackBlitz</td>
+  </tr>
+  <tr>
+    <td align="center" width="1000"><img src="./icons/steam.svg" height="48" width="48"><br>Steam</td>
     <td align="center" width="1000"><img src="./icons/stimulus.svg" height="48" width="48"><br>Stimulus</td>
+  </tr>
+  <tr>
+    <td align="center" width="1000"><img src="./icons/storybook.svg" height="48" width="48"><br>Storybook</td>
+    <td align="center" width="1000"><img src="./icons/sublime-text.svg" height="48" width="48"><br>Sublime Text</td>
   </tr>
   <tr>
     <td align="center" width="1000"><img src="./icons/supabase.svg" height="48" width="48"><br>Supabase</td>
@@ -447,7 +455,7 @@
   </tr>
   <tr>
     <td align="center" width="1000"><img src="./icons/uiverse.svg" height="48" width="48"><br>UIverse</td>
-    <td align="center" width="1000"><img src="./icons/unocss.svg" height="48" width="48"><br>Unocss</td>
+    <td align="center" width="1000"><img src="./icons/unocss.svg" height="48" width="48"><br>UnoCSS</td>
   </tr>
   <tr>
     <td align="center" width="1000"><img src="./icons/vastsea.svg" height="48" width="48"><br>Vastsea</td>
@@ -462,7 +470,7 @@
     <td align="center" width="1000"><img src="./icons/vitest.svg" height="48" width="48"><br>Vitest</td>
   </tr>
   <tr>
-    <td align="center" width="1000"><img src="./icons/void.svg" height="48" width="48"><br>VOID</td>
+    <td align="center" width="1000"><img src="./icons/void.svg" height="48" width="48"><br>Void</td>
     <td align="center" width="1000"><img src="./icons/vue-data-ui.svg" height="48" width="48"><br>Vue Data UI</td>
   </tr>
   <tr>

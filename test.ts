@@ -1,92 +1,85 @@
-import fs from "fs/promises";
-import path from "path";
+// import fs from "fs/promises";
+// import path from "path";
 
-type IconMap = Record<string, string>;
+// type IconMap = Record<string, string>;
 
-const ICONS_DIRECTORY = "./icons";
-const ICONS_PER_ROW = 15;
-const TARGET_ICON_SIZE = 48;
-const SCALE_FACTOR = TARGET_ICON_SIZE / (300 - 44);
+// const DIST_DIR = "./dist";
+// const ICONS_JSON_FILE = path.join(DIST_DIR, "icons.json");
+// const ICONS_PER_ROW = 15;
+// const TARGET_ICON_SIZE = 48;
+// const SCALE_FACTOR = TARGET_ICON_SIZE / (300 - 44);
 
-async function loadIcons(): Promise<IconMap> {
-  const iconMap: IconMap = {};
-  const files = await fs.readdir(ICONS_DIRECTORY);
+// async function loadIcons(): Promise<IconMap> {
+//   const jsonContent = await fs.readFile(ICONS_JSON_FILE, "utf-8");
+//   return JSON.parse(jsonContent) as IconMap;
+// }
 
-  for (const fileName of files) {
-    if (path.extname(fileName).toLowerCase() !== ".svg") continue;
+// function generateSvg(
+//   iconNames: string[],
+//   icons: IconMap,
+//   iconsPerRow: number = ICONS_PER_ROW
+// ): string {
+//   const validIcons = iconNames.map((name) => icons[name]);
 
-    const filePath = path.join(ICONS_DIRECTORY, fileName);
-    const content = await fs.readFile(filePath, "utf-8");
-    const iconName = path.basename(fileName, ".svg").toLowerCase();
-    iconMap[iconName] = content;
-  }
+//   const totalRows = Math.ceil(validIcons.length / iconsPerRow);
+//   const totalWidth = iconsPerRow * 300 - 44;
+//   const totalHeight = totalRows * 300 - 44;
 
-  return iconMap;
-}
+//   const scaledWidth = totalWidth * SCALE_FACTOR;
+//   const scaledHeight = totalHeight * SCALE_FACTOR;
 
-function generateSvg(
-  iconNames: string[],
-  icons: IconMap,
-  iconsPerRow: number = ICONS_PER_ROW
-): string {
-  const validIcons = iconNames.map((name) => icons[name]);
+//   const iconElements = validIcons
+//     .map((svgContent, index) => {
+//       const xPosition = (index % iconsPerRow) * 300;
+//       const yPosition = Math.floor(index / iconsPerRow) * 300;
 
-  const totalRows = Math.ceil(validIcons.length / iconsPerRow);
-  const totalWidth = iconsPerRow * 300 - 44;
-  const totalHeight = totalRows * 300 - 44;
+//       return `
+//       <g transform="translate(${xPosition}, ${yPosition})">
+//         ${svgContent}
+//       </g>
+//     `;
+//     })
+//     .join("");
 
-  const scaledWidth = totalWidth * SCALE_FACTOR;
-  const scaledHeight = totalHeight * SCALE_FACTOR;
+//   return `
+//     <svg
+//       width="${scaledWidth}"
+//       height="${scaledHeight}"
+//       viewBox="0 0 ${totalWidth} ${totalHeight}"
+//       fill="none"
+//       xmlns="http://www.w3.org/2000/svg"
+//       xmlns:xlink="http://www.w3.org/1999/xlink"
+//       version="1.1"
+//     >
+//       ${iconElements}
+//     </svg>
+//   `;
+// }
 
-  const iconElements = validIcons
-    .map((svgContent, index) => {
-      const xPosition = (index % iconsPerRow) * 300;
-      const yPosition = Math.floor(index / iconsPerRow) * 300;
+// export async function createIconGrid(
+//   iconNames: string[],
+//   outputFilePath: string,
+//   iconsPerRow: number = ICONS_PER_ROW
+// ): Promise<void> {
+//   const allIcons = await loadIcons();
+//   const validIconNames = iconNames.filter((name) => name in allIcons).sort();
+//   const svgContent = generateSvg(validIconNames, allIcons, iconsPerRow);
 
-      return `
-      <g transform="translate(${xPosition}, ${yPosition})">
-        ${svgContent}
-      </g>
-    `;
-    })
-    .join("");
+//   await fs.writeFile(outputFilePath, svgContent);
+//   console.log(outputFilePath);
+// }
 
-  return `
-    <svg 
-      width="${scaledWidth}" 
-      height="${scaledHeight}" 
-      viewBox="0 0 ${totalWidth} ${totalHeight}"
-      fill="none" 
-      xmlns="http://www.w3.org/2000/svg" 
-      xmlns:xlink="http://www.w3.org/1999/xlink" 
-      version="1.1"
-    >
-      ${iconElements}
-    </svg>
-  `;
-}
+// export async function run() {
+//   try {
+//     const iconMap = await loadIcons();
+//     const allIconNames = Object.keys(iconMap);
 
-export async function createIconGrid(
-  iconNames: string[],
-  outputFilePath: string,
-  iconsPerRow: number = ICONS_PER_ROW
-): Promise<void> {
-  const allIcons = await loadIcons();
-  const validIconNames = iconNames.filter((name) => name in allIcons).sort();
-  const svgContent = generateSvg(validIconNames, allIcons, iconsPerRow);
+//     await createIconGrid(allIconNames, "./icon-grid.svg");
+//     console.log("./icon-grid.svg");
+//   } catch (error) {
+//     console.error(error instanceof Error ? error.message : String(error));
+//     process.exit(1);
+//   }
+// }
 
-  await fs.writeFile(outputFilePath, svgContent);
-  console.log(outputFilePath);
-}
-
-export async function run() {
-  try {
-    const iconMap = await loadIcons();
-    const allIconNames = Object.keys(iconMap);
-
-    await createIconGrid(allIconNames, "./icon-grid.svg");
-  } catch (error) {
-    console.error(error instanceof Error ? error.message : String(error));
-    process.exit(1);
-  }
-}
+// if (import.meta.main) run();

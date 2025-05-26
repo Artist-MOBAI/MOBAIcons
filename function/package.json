@@ -11,8 +11,7 @@
     "lint": "eslint --fix ."
   },
   "dependencies": {
-    "svgo": "^3.3.2",
-    "zod": "^3.25.28"
+    "svgo": "^3.3.2"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^4.13.2",

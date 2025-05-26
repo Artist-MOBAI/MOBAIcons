@@ -3,11 +3,6 @@ export default defineNitroConfig({
   srcDir: 'server',
   compatibilityDate: 'latest',
   preset: 'cloudflare-module',
-  storage: {
-    icons: {
-      driver: 'cloudflare-kv-binding',
-    },
-  },
   serverAssets: [{
     baseName: 'icons',
     dir: '../../icons',

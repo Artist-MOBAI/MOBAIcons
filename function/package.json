@@ -1,0 +1,23 @@
+{
+  "name": "mobaicons-function",
+  "private": true,
+  "scripts": {
+    "build": "nitro build",
+    "dev": "nitro dev",
+    "prepare": "nitro prepare",
+    "preview": "node .output/server/index.mjs",
+    "cf:deploy": "wrangler --cwd .output/ deploy",
+    "cf:preview": "wrangler --cwd .output/ dev",
+    "lint": "eslint --fix ."
+  },
+  "dependencies": {
+    "svgo": "^3.3.2",
+    "zod": "^3.25.28"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^4.13.2",
+    "eslint": "^9.27.0",
+    "nitropack": "latest",
+    "wrangler": "^4.16.1"
+  }
+}

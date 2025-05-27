@@ -190,99 +190,103 @@
     <td align="center" width="1000"><img src="./icons/front.svg" height="48" width="48"><br>Front</td>
   </tr>
   <tr>
+    <td align="center" width="1000"><img src="./icons/fumadocs.svg" height="48" width="48"><br>Fumadocs</td>
     <td align="center" width="1000"><img src="./icons/fusionapp.svg" height="48" width="48"><br>FusionApp</td>
+  </tr>
+  <tr>
     <td align="center" width="1000"><img src="./icons/gatsby.svg" height="48" width="48"><br>Gatsby</td>
-  </tr>
-  <tr>
     <td align="center" width="1000"><img src="./icons/gemini.svg" height="48" width="48"><br>Gemini</td>
+  </tr>
+  <tr>
     <td align="center" width="1000"><img src="./icons/gin.svg" height="48" width="48"><br>Gin</td>
-  </tr>
-  <tr>
     <td align="center" width="1000"><img src="./icons/git.svg" height="48" width="48"><br>Git</td>
+  </tr>
+  <tr>
     <td align="center" width="1000"><img src="./icons/github-copilot.svg" height="48" width="48"><br>GitHub Copilot</td>
-  </tr>
-  <tr>
     <td align="center" width="1000"><img src="./icons/github.svg" height="48" width="48"><br>GitHub</td>
+  </tr>
+  <tr>
     <td align="center" width="1000"><img src="./icons/gitlab.svg" height="48" width="48"><br>GitLab</td>
-  </tr>
-  <tr>
     <td align="center" width="1000"><img src="./icons/gleam.svg" height="48" width="48"><br>Gleam</td>
+  </tr>
+  <tr>
     <td align="center" width="1000"><img src="./icons/gmail.svg" height="48" width="48"><br>Gmail</td>
-  </tr>
-  <tr>
     <td align="center" width="1000"><img src="./icons/go.svg" height="48" width="48"><br>Go</td>
+  </tr>
+  <tr>
     <td align="center" width="1000"><img src="./icons/graphql.svg" height="48" width="48"><br>GraphQL</td>
-  </tr>
-  <tr>
     <td align="center" width="1000"><img src="./icons/grok.svg" height="48" width="48"><br>Grok</td>
+  </tr>
+  <tr>
     <td align="center" width="1000"><img src="./icons/grpc.svg" height="48" width="48"><br>gRPC</td>
-  </tr>
-  <tr>
     <td align="center" width="1000"><img src="./icons/gsap.svg" height="48" width="48"><br>GSAP</td>
+  </tr>
+  <tr>
     <td align="center" width="1000"><img src="./icons/hashnode.svg" height="48" width="48"><br>Hashnode</td>
-  </tr>
-  <tr>
     <td align="center" width="1000"><img src="./icons/haskell.svg" height="48" width="48"><br>Haskell</td>
+  </tr>
+  <tr>
     <td align="center" width="1000"><img src="./icons/hcaptcha.svg" height="48" width="48"><br>hCaptcha</td>
-  </tr>
-  <tr>
     <td align="center" width="1000"><img src="./icons/headlessui.svg" height="48" width="48"><br>Headless UI</td>
+  </tr>
+  <tr>
     <td align="center" width="1000"><img src="./icons/heroui.svg" height="48" width="48"><br>HeroUI</td>
-  </tr>
-  <tr>
     <td align="center" width="1000"><img src="./icons/home-assistant.svg" height="48" width="48"><br>Home Assistant</td>
+  </tr>
+  <tr>
     <td align="center" width="1000"><img src="./icons/homebrew.svg" height="48" width="48"><br>Homebrew</td>
-  </tr>
-  <tr>
     <td align="center" width="1000"><img src="./icons/hono.svg" height="48" width="48"><br>Hono</td>
+  </tr>
+  <tr>
     <td align="center" width="1000"><img src="./icons/hoppscotch.svg" height="48" width="48"><br>Hoppscotch</td>
-  </tr>
-  <tr>
     <td align="center" width="1000"><img src="./icons/html.svg" height="48" width="48"><br>HTML</td>
+  </tr>
+  <tr>
     <td align="center" width="1000"><img src="./icons/huggingface.svg" height="48" width="48"><br>Hugging Face</td>
-  </tr>
-  <tr>
     <td align="center" width="1000"><img src="./icons/i18next.svg" height="48" width="48"><br>i18next</td>
+  </tr>
+  <tr>
     <td align="center" width="1000"><img src="./icons/idea.svg" height="48" width="48"><br>IntelliJ IDEA</td>
-  </tr>
-  <tr>
     <td align="center" width="1000"><img src="./icons/infojobs.svg" height="48" width="48"><br>Infojobs</td>
+  </tr>
+  <tr>
     <td align="center" width="1000"><img src="./icons/inlang.svg" height="48" width="48"><br>inlang</td>
-  </tr>
-  <tr>
     <td align="center" width="1000"><img src="./icons/inspira-ui.svg" height="48" width="48"><br>Inspira UI</td>
+  </tr>
+  <tr>
     <td align="center" width="1000"><img src="./icons/instagram.svg" height="48" width="48"><br>Instagram</td>
-  </tr>
-  <tr>
     <td align="center" width="1000"><img src="./icons/jasmine.svg" height="48" width="48"><br>Jasmine</td>
+  </tr>
+  <tr>
     <td align="center" width="1000"><img src="./icons/java.svg" height="48" width="48"><br>Java</td>
-  </tr>
-  <tr>
     <td align="center" width="1000"><img src="./icons/javascript.svg" height="48" width="48"><br>JavaScript</td>
+  </tr>
+  <tr>
     <td align="center" width="1000"><img src="./icons/jest.svg" height="48" width="48"><br>Jest</td>
-  </tr>
-  <tr>
     <td align="center" width="1000"><img src="./icons/jetbrains.svg" height="48" width="48"><br>JetBrains</td>
+  </tr>
+  <tr>
     <td align="center" width="1000"><img src="./icons/jquery.svg" height="48" width="48"><br>jQuery</td>
-  </tr>
-  <tr>
     <td align="center" width="1000"><img src="./icons/json.svg" height="48" width="48"><br>JSON</td>
+  </tr>
+  <tr>
     <td align="center" width="1000"><img src="./icons/julia.svg" height="48" width="48"><br>Julia</td>
-  </tr>
-  <tr>
     <td align="center" width="1000"><img src="./icons/jwt.svg" height="48" width="48"><br>JWT</td>
+  </tr>
+  <tr>
     <td align="center" width="1000"><img src="./icons/kernelsu.svg" height="48" width="48"><br>KernelSU</td>
-  </tr>
-  <tr>
     <td align="center" width="1000"><img src="./icons/klpbbs.svg" height="48" width="48"><br>KLPBBS</td>
+  </tr>
+  <tr>
     <td align="center" width="1000"><img src="./icons/kortix.svg" height="48" width="48"><br>Kortix</td>
-  </tr>
-  <tr>
     <td align="center" width="1000"><img src="./icons/kotlin.svg" height="48" width="48"><br>Kotlin</td>
-    <td align="center" width="1000"><img src="./icons/krakenjs.svg" height="48" width="48"><br>Kraken.js</td>
   </tr>
   <tr>
+    <td align="center" width="1000"><img src="./icons/krakenjs.svg" height="48" width="48"><br>Kraken.js</td>
     <td align="center" width="1000"><img src="./icons/kubernetes.svg" height="48" width="48"><br>Kubernetes</td>
+  </tr>
+  <tr>
+    <td align="center" width="1000"><img src="./icons/labelstudio.svg" height="48" width="48"><br>Label Studio</td>
     <td align="center" width="1000"><img src="./icons/laravel.svg" height="48" width="48"><br>Laravel</td>
   </tr>
   <tr>
@@ -355,6 +359,10 @@
   </tr>
   <tr>
     <td align="center" width="1000"><img src="./icons/nextjs.svg" height="48" width="48"><br>Next.js</td>
+    <td align="center" width="1000"><img src="./icons/nextra.svg" height="48" width="48"><br>Nextra</td>
+  </tr>
+  <tr>
+    <td align="center" width="1000"><img src="./icons/nitro.svg" height="48" width="48"><br>Nitro</td>
     <td align="center" width="1000"><img src="./icons/nodejs.svg" height="48" width="48"><br>Node.js</td>
   </tr>
   <tr>
@@ -362,7 +370,7 @@
     <td align="center" width="1000"><img src="./icons/npm.svg" height="48" width="48"><br>NPM</td>
   </tr>
   <tr>
-    <td align="center" width="1000"><img src="./icons/nuxtjs.svg" height="48" width="48"><br>Nuxt.js</td>
+    <td align="center" width="1000"><img src="./icons/nuxtjs.svg" height="48" width="48"><br>NuxtJS</td>
     <td align="center" width="1000"><img src="./icons/obs.svg" height="48" width="48"><br>OBS</td>
   </tr>
   <tr>
@@ -379,7 +387,7 @@
   </tr>
   <tr>
     <td align="center" width="1000"><img src="./icons/openrouter.svg" height="48" width="48"><br>OpenRouter</td>
-    <td align="center" width="1000"><img src="./icons/opensuse.svg" height="48" width="48"><br>openSUSE</td>
+    <td align="center" width="1000"><img src="./icons/opensuse.svg" height="48" width="48"><br>OpenSUSE</td>
   </tr>
   <tr>
     <td align="center" width="1000"><img src="./icons/opera.svg" height="48" width="48"><br>Opera</td>
@@ -387,7 +395,7 @@
   </tr>
   <tr>
     <td align="center" width="1000"><img src="./icons/oxc.svg" height="48" width="48"><br>Oxc</td>
-    <td align="center" width="1000"><img src="./icons/pandacss.svg" height="48" width="48"><br>PandaCSS</td>
+    <td align="center" width="1000"><img src="./icons/pandacss.svg" height="48" width="48"><br>Panda CSS</td>
   </tr>
   <tr>
     <td align="center" width="1000"><img src="./icons/parcel.svg" height="48" width="48"><br>Parcel</td>
@@ -407,7 +415,7 @@
   </tr>
   <tr>
     <td align="center" width="1000"><img src="./icons/playwright.svg" height="48" width="48"><br>Playwright</td>
-    <td align="center" width="1000"><img src="./icons/pnpm.svg" height="48" width="48"><br>pnpm</td>
+    <td align="center" width="1000"><img src="./icons/pnpm.svg" height="48" width="48"><br>PNPM</td>
   </tr>
   <tr>
     <td align="center" width="1000"><img src="./icons/polar.svg" height="48" width="48"><br>Polar</td>
@@ -431,7 +439,7 @@
   </tr>
   <tr>
     <td align="center" width="1000"><img src="./icons/python.svg" height="48" width="48"><br>Python</td>
-    <td align="center" width="1000"><img src="./icons/qt.svg" height="48" width="48"><br>Qt</td>
+    <td align="center" width="1000"><img src="./icons/qt.svg" height="48" width="48"><br>QT</td>
   </tr>
   <tr>
     <td align="center" width="1000"><img src="./icons/qwen.svg" height="48" width="48"><br>Qwen</td>
@@ -455,7 +463,7 @@
   </tr>
   <tr>
     <td align="center" width="1000"><img src="./icons/react.svg" height="48" width="48"><br>React</td>
-    <td align="center" width="1000"><img src="./icons/reactbits.svg" height="48" width="48"><br>ReactBits</td>
+    <td align="center" width="1000"><img src="./icons/reactbits.svg" height="48" width="48"><br>React Bits</td>
   </tr>
   <tr>
     <td align="center" width="1000"><img src="./icons/reactnavigation.svg" height="48" width="48"><br>React Navigation</td>
@@ -498,12 +506,12 @@
     <td align="center" width="1000"><img src="./icons/salvo.svg" height="48" width="48"><br>Salvo</td>
   </tr>
   <tr>
-    <td align="center" width="1000"><img src="./icons/sass.svg" height="48" width="48"><br>Sass</td>
+    <td align="center" width="1000"><img src="./icons/sass.svg" height="48" width="48"><br>SASS</td>
     <td align="center" width="1000"><img src="./icons/scala.svg" height="48" width="48"><br>Scala</td>
   </tr>
   <tr>
     <td align="center" width="1000"><img src="./icons/sequelize.svg" height="48" width="48"><br>Sequelize</td>
-    <td align="center" width="1000"><img src="./icons/shadcn.svg" height="48" width="48"><br>Shadcn</td>
+    <td align="center" width="1000"><img src="./icons/shadcn.svg" height="48" width="48"><br>Shadcn/UI</td>
   </tr>
   <tr>
     <td align="center" width="1000"><img src="./icons/shiki.svg" height="48" width="48"><br>Shiki</td>
@@ -519,7 +527,7 @@
   </tr>
   <tr>
     <td align="center" width="1000"><img src="./icons/solidjs.svg" height="48" width="48"><br>SolidJS</td>
-    <td align="center" width="1000"><img src="./icons/soybean-sec.svg" height="48" width="48"><br>Soybean Sec</td>
+    <td align="center" width="1000"><img src="./icons/soybean-sec.svg" height="48" width="48"><br>Soybean SEC</td>
   </tr>
   <tr>
     <td align="center" width="1000"><img src="./icons/space.svg" height="48" width="48"><br>Space</td>
@@ -578,7 +586,7 @@
     <td align="center" width="1000"><img src="./icons/threejs.svg" height="48" width="48"><br>Three.js</td>
   </tr>
   <tr>
-    <td align="center" width="1000"><img src="./icons/tina.svg" height="48" width="48"><br>Tina</td>
+    <td align="center" width="1000"><img src="./icons/tina.svg" height="48" width="48"><br>TinaCMS</td>
     <td align="center" width="1000"><img src="./icons/tldraw.svg" height="48" width="48"><br>tldraw</td>
   </tr>
   <tr>
@@ -602,7 +610,7 @@
     <td align="center" width="1000"><img src="./icons/ubuntu.svg" height="48" width="48"><br>Ubuntu</td>
   </tr>
   <tr>
-    <td align="center" width="1000"><img src="./icons/uiverse.svg" height="48" width="48"><br>Uiverse</td>
+    <td align="center" width="1000"><img src="./icons/uiverse.svg" height="48" width="48"><br>UI Verse</td>
     <td align="center" width="1000"><img src="./icons/unity.svg" height="48" width="48"><br>Unity</td>
   </tr>
   <tr>
@@ -610,8 +618,8 @@
     <td align="center" width="1000"><img src="./icons/unreal-engine.svg" height="48" width="48"><br>Unreal Engine</td>
   </tr>
   <tr>
-    <td align="center" width="1000"><img src="./icons/v0.svg" height="48" width="48"><br>v0</td>
-    <td align="center" width="1000"><img src="./icons/vastsea.svg" height="48" width="48"><br>Vastsea</td>
+    <td align="center" width="1000"><img src="./icons/v0.svg" height="48" width="48"><br>V0</td>
+    <td align="center" width="1000"><img src="./icons/vastsea.svg" height="48" width="48"><br>Vast Sea</td>
   </tr>
   <tr>
     <td align="center" width="1000"><img src="./icons/vb.svg" height="48" width="48"><br>Visual Basic</td>
@@ -631,7 +639,7 @@
   </tr>
   <tr>
     <td align="center" width="1000"><img src="./icons/vivaldi.svg" height="48" width="48"><br>Vivaldi</td>
-    <td align="center" width="1000"><img src="./icons/void.svg" height="48" width="48"><br>Void</td>
+    <td align="center" width="1000"><img src="./icons/void.svg" height="48" width="48"><br>Void Linux</td>
   </tr>
   <tr>
     <td align="center" width="1000"><img src="./icons/vscodium.svg" height="48" width="48"><br>VSCodium</td>
@@ -639,7 +647,7 @@
   </tr>
   <tr>
     <td align="center" width="1000"><img src="./icons/vue-vine.svg" height="48" width="48"><br>Vue Vine</td>
-    <td align="center" width="1000"><img src="./icons/vue.svg" height="48" width="48"><br>Vue</td>
+    <td align="center" width="1000"><img src="./icons/vue.svg" height="48" width="48"><br>Vue.js</td>
   </tr>
   <tr>
     <td align="center" width="1000"><img src="./icons/vuetify.svg" height="48" width="48"><br>Vuetify</td>
@@ -666,7 +674,7 @@
     <td align="center" width="1000"><img src="./icons/workos.svg" height="48" width="48"><br>WorkOS</td>
   </tr>
   <tr>
-    <td align="center" width="1000"><img src="./icons/xai.svg" height="48" width="48"><br>xAI</td>
+    <td align="center" width="1000"><img src="./icons/xai.svg" height="48" width="48"><br>XAI</td>
     <td align="center" width="1000"><img src="./icons/xbox.svg" height="48" width="48"><br>Xbox</td>
   </tr>
   <tr>

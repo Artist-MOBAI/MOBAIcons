@@ -1,16 +1,16 @@
 {
   "name": "mobaicons",
-  "module": "index.ts",
-  "type": "module",
-  "license": "MIT",
   "scripts": {
-    "dev": "bun build.ts && bun index.ts",
-    "build": "bun build.ts"
+    "dev": "wrangler dev",
+    "build": "bun run src/scripts/generate.ts",
+    "deploy": "wrangler deploy --minify",
+    "cf-typegen": "wrangler types --env-interface CloudflareBindings"
+  },
+  "dependencies": {
+    "hono": "^4.7.10"
   },
   "devDependencies": {
-    "@types/bun": "latest"
-  },
-  "peerDependencies": {
-    "typescript": "^5"
+    "@types/node": "^22.15.21",
+    "wrangler": "^4.4.0"
   }
 }

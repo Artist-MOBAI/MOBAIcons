@@ -30,8 +30,10 @@ router.get("/:query", async (c) => {
   const query = c.req.param("query");
   const perline = parseInt(c.req.query("perline") || "15");
   const duplicate = c.req.query("duplicate") !== undefined;
+  const sort = c.req.query("sort") !== undefined;
 
   const icons = await fetchIcons(parseQuery(query, duplicate));
+  if (sort) icons.sort((a, b) => a.localeCompare(b));
   const svg = generateSvgGrid(icons, { perline });
 
   return c.body(svg, 200, {

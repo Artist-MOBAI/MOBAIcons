@@ -1,4 +1,5 @@
 import { Hono } from "hono";
+import about from "./routes/about.get";
 import all from "./routes/all.get";
 import count from "./routes/count.get";
 import icons from "./routes/icons.get";
@@ -14,6 +15,7 @@ app.get("/", (c) => {
 app.route("/all", all);
 app.route("/count", count);
 app.route("/icons", icons).route("/i", icons);
+app.route("/about", about);
 app.route("/list", list);
 app.route("/search", search);
 

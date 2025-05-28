@@ -4,7 +4,7 @@ let iconListCache: any = null;
 
 async function getIconList() {
   if (!iconListCache) {
-    iconListCache = await import("../data/icon-list.json");
+    iconListCache = await import("../data/list.json");
   }
   return iconListCache.default || iconListCache;
 }

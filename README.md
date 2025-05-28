@@ -1,4 +1,4 @@
-[![MOBAIcons](./src/docs/image/hero.svg)](https://github.com/Artist-MOBAI/MOBAIcons)
+[![MOBAIcons](https://mobaicons.com/about)](https://github.com/Artist-MOBAI/MOBAIcons)
 [![MOBAIcons](./src/docs/image/author.svg)](https://github.com/Artist-MOBAI/MOBAIcons)
 
 <!-- [![API Status](https://img.shields.io/badge/API-Online-green)](https://mobaicons.com)

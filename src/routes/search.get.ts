@@ -1,21 +1,20 @@
 import { Hono } from "hono";
-import { fetchIcons } from "../utils/icons";
+import { fetchIcons, getAvailableIcons } from "../utils/icons";
 import { generateSvgGrid } from "../utils/svg";
-import iconList from "../data/icon-list.json";
 
 const router = new Hono();
 
 router.get("/", async (c) => {
   const q = c.req.query("q");
 
-  let filteredIcons = iconList.icons;
+  const availableIcons = await getAvailableIcons();
 
   if (q) {
-    filteredIcons = iconList.icons.filter((icon) =>
-      icon.name.toLowerCase().includes(q.toLowerCase())
+    const filteredIcons = availableIcons.filter((iconName) =>
+      iconName.toLowerCase().includes(q.toLowerCase())
     );
 
-    return c.json(filteredIcons.map((icon) => icon.name));
+    return c.json(filteredIcons);
   }
 });
 
@@ -23,13 +22,13 @@ router.get("/:name", async (c) => {
   const name = c.req.param("name");
   const perline = parseInt(c.req.query("perline") || "15");
 
-  let filteredIcons = iconList.icons;
+  const availableIcons = await getAvailableIcons();
 
   if (name) {
-    filteredIcons = iconList.icons.filter((icon) =>
-      icon.name.toLowerCase().includes(name.toLowerCase())
+    const filteredIconNames = availableIcons.filter((iconName) =>
+      iconName.toLowerCase().includes(name.toLowerCase())
     );
-    const icons = await fetchIcons(filteredIcons.map((icon) => icon.name));
+    const icons = await fetchIcons(filteredIconNames);
     const svg = generateSvgGrid(icons, { perline });
 
     return c.body(svg, 200, {

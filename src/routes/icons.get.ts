@@ -1,7 +1,6 @@
 import { Hono } from "hono";
-import { fetchIcons, parseQuery } from "../utils/icons";
+import { fetchIcons, parseQuery, getAvailableIcons } from "../utils/icons";
 import { generateSvgGrid } from "../utils/svg";
-import iconList from "../data/icon-list.json";
 
 const router = new Hono();
 
@@ -10,14 +9,14 @@ router.get("/", async (c) => {
   const search = c.req.query("q");
   const svg = generateSvgGrid(icons);
 
-  let filteredIcons = iconList.icons;
+  const availableIcons = await getAvailableIcons();
 
   if (search) {
-    filteredIcons = iconList.icons.filter((icon) =>
-      icon.name.toLowerCase().includes(search.toLowerCase())
+    const filteredIcons = availableIcons.filter((iconName) =>
+      iconName.toLowerCase().includes(search.toLowerCase())
     );
 
-    return c.json(filteredIcons.map((icon) => icon.name));
+    return c.json(filteredIcons);
   } else {
     return c.body(svg, 200, {
       "Content-Type": "image/svg+xml",

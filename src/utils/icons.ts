@@ -1,16 +1,26 @@
 import { aliases } from "./aliases";
-import iconList from "../data/icon-list.json";
+
+let iconListCache: any = null;
+
+async function getIconList() {
+  if (!iconListCache) {
+    iconListCache = await import("../data/icon-list.json");
+  }
+  return iconListCache.default || iconListCache;
+}
 
 export async function fetchIcons(names?: string[]): Promise<string[]> {
+  const iconList = await getIconList();
+
   if (names != null) {
     return Promise.all(
       names.map(async (name) => {
-        const icon = iconList.icons.find((icon) => icon.name === name);
+        const icon = iconList.icons.find((icon: any) => icon.name === name);
         return icon?.svg || "";
       })
     );
   } else {
-    return iconList.icons.map((icon) => icon.svg);
+    return iconList.icons.map((icon: any) => icon.svg);
   }
 }
 
@@ -27,10 +37,12 @@ export function parseQuery(query: string, duplicate = false): string[] {
   return duplicate ? words : [...new Set(words)];
 }
 
-export function getAvailableIcons(): string[] {
-  return iconList.icons.map((icon) => icon.name);
+export async function getAvailableIcons(): Promise<string[]> {
+  const iconList = await getIconList();
+  return iconList.icons.map((icon: any) => icon.name);
 }
 
-export function getIconCount(): number {
+export async function getIconCount(): Promise<number> {
+  const iconList = await getIconList();
   return iconList.totalIcons;
 }

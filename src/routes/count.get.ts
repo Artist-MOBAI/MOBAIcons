@@ -4,7 +4,7 @@ import { getIconCount } from "../utils/icons";
 const router = new Hono();
 
 router.get("/", async (c) => {
-  const count = getIconCount();
+  const count = await getIconCount();
   return c.text(count.toString());
 });
 

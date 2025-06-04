@@ -2,8 +2,9 @@ import fs from "node:fs";
 import path from "node:path";
 
 export async function generateIconList() {
-  const iconsDir = path.join(process.cwd(), "icons");
-  const outputFile = path.join(process.cwd(), "src", "data", "list.json");
+  const rootDir = path.join(__dirname, "..", "..");
+  const iconsDir = path.join(rootDir, "icons");
+  const outputFile = path.join(rootDir, "src", "data", "list.json");
 
   const outputDir = path.dirname(outputFile);
   if (!fs.existsSync(outputDir)) {

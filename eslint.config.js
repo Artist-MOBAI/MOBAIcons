@@ -4,7 +4,7 @@ import sortKeysFix from "eslint-plugin-sort-keys-fix";
 
 export default [
   {
-    files: ["**/*.ts", "**/*.tsx"],
+    files: ["**/*.ts"],
     languageOptions: {
       parser: tsparser,
     },

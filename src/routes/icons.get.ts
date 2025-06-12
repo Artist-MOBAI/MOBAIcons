@@ -8,8 +8,8 @@ const router = new Hono();
 router.get(
   "/",
   cache({
-    cacheName: "mobaicons-data-icons",
     cacheControl: "public, max-age=3600",
+    cacheName: "mobaicons-data-icons",
   }),
   async (c) => {
     const icons = await fetchIcons();
@@ -34,8 +34,8 @@ router.get(
 router.get(
   "/:query",
   cache({
-    cacheName: "mobaicons-svg-icons",
     cacheControl: "public, max-age=31536000",
+    cacheName: "mobaicons-svg-icons",
   }),
   async (c) => {
     const query = c.req.param("query");

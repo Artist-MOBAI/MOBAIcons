@@ -8,8 +8,8 @@ const router = new Hono();
 router.get(
   "/",
   cache({
-    cacheName: "mobaicons-data-search",
     cacheControl: "public, max-age=3600",
+    cacheName: "mobaicons-data-search",
   }),
   async (c) => {
     const q = c.req.query("q");
@@ -27,8 +27,8 @@ router.get(
 router.get(
   "/:name",
   cache({
-    cacheName: "mobaicons-svg-search",
     cacheControl: "public, max-age=3600",
+    cacheName: "mobaicons-svg-search",
   }),
   async (c) => {
     const name = c.req.param("name");

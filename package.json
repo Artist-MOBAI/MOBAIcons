@@ -1,16 +1,23 @@
 {
   "name": "mobaicons",
+  "type": "module",
   "scripts": {
     "dev": "wrangler dev",
     "build": "bun run src/scripts/generate.ts",
     "deploy": "wrangler deploy --minify",
-    "cf-typegen": "wrangler types --env-interface CloudflareBindings"
+    "cf-typegen": "wrangler types --env-interface CloudflareBindings",
+    "lint": "eslint src --ext .ts",
+    "lint:fix": "eslint src --ext .ts --fix"
   },
   "dependencies": {
     "hono": "^4.7.11"
   },
   "devDependencies": {
     "@types/node": "^22.15.31",
+    "@typescript-eslint/eslint-plugin": "^8.34.0",
+    "@typescript-eslint/parser": "^8.34.0",
+    "eslint": "^9.28.0",
+    "eslint-plugin-sort-keys-fix": "^1.1.2",
     "wrangler": "^4.20.0"
   }
 }

@@ -7,8 +7,8 @@ const router = new Hono();
 router.get(
   "/",
   cache({
-    cacheName: "mobaicons-data-list",
     cacheControl: "public, max-age=86400",
+    cacheName: "mobaicons-data-list",
   }),
   async (c) => {
     const list = await getAvailableIcons();

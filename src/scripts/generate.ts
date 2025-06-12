@@ -15,7 +15,6 @@ export async function generateIconList() {
   const svgFiles = files.filter((file) => file.endsWith(".svg")).sort();
 
   const iconData = {
-    totalIcons: svgFiles.length,
     generatedAt: new Date().toISOString(),
     icons: svgFiles.map((filename) => {
       const filePath = path.join(iconsDir, filename);
@@ -25,6 +24,7 @@ export async function generateIconList() {
         svg: fs.readFileSync(filePath, "utf-8"),
       };
     }),
+    totalIcons: svgFiles.length,
   };
 
   fs.writeFileSync(outputFile, JSON.stringify(iconData, null, 2));

@@ -15,8 +15,8 @@ async function getInfoList() {
 router.get(
   "/",
   cache({
-    cacheName: "mobaicons-data-icons",
     cacheControl: "public, max-age=86400",
+    cacheName: "mobaicons-data-icons",
   }),
   async (c) => {
     const data = await getInfoList();

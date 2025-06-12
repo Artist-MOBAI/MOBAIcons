@@ -8,8 +8,8 @@ const router = new Hono();
 router.get(
   "/",
   cache({
-    cacheName: "mobaicons-svg-all",
     cacheControl: "public, max-age=86400",
+    cacheName: "mobaicons-svg-all",
   }),
   async (c) => {
     const icons = await fetchIcons();

@@ -7,8 +7,8 @@ const router = new Hono();
 router.get(
   "/",
   cache({
-    cacheName: "mobaicons-data-count",
     cacheControl: "public, max-age=86400",
+    cacheName: "mobaicons-data-count",
   }),
   async (c) => {
     const count = await getIconCount();

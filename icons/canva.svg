@@ -1,0 +1,38 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="256" height="256" fill="#232932"/>
+<g clip-path="url(#clip0_282_22)">
+<mask id="mask0_282_22" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="28" y="28" width="200" height="200">
+<path d="M228 28H28V228H228V28Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_282_22)">
+<path d="M128 228C183.229 228 228 183.229 228 128C228 72.7715 183.229 28 128 28C72.7715 28 28 72.7715 28 128C28 183.229 72.7715 228 128 228Z" fill="#7D2AE7"/>
+<path d="M128 228C183.229 228 228 183.229 228 128C228 72.7715 183.229 28 128 28C72.7715 28 28 72.7715 28 128C28 183.229 72.7715 228 128 228Z" fill="url(#paint0_radial_282_22)"/>
+<path d="M128 228C183.229 228 228 183.229 228 128C228 72.7715 183.229 28 128 28C72.7715 28 28 72.7715 28 128C28 183.229 72.7715 228 128 228Z" fill="url(#paint1_radial_282_22)"/>
+<path d="M128 228C183.229 228 228 183.229 228 128C228 72.7715 183.229 28 128 28C72.7715 28 28 72.7715 28 128C28 183.229 72.7715 228 128 228Z" fill="url(#paint2_radial_282_22)"/>
+<path d="M128 228C183.229 228 228 183.229 228 128C228 72.7715 183.229 28 128 28C72.7715 28 28 72.7715 28 128C28 183.229 72.7715 228 128 228Z" fill="url(#paint3_radial_282_22)"/>
+<path d="M171.173 148.513C170.348 148.513 169.621 149.21 168.866 150.732C160.331 168.038 145.59 180.284 128.531 180.284C108.807 180.284 96.5926 162.478 96.5926 137.881C96.5926 96.2139 119.808 72.1229 140.199 72.1229C149.728 72.1229 155.547 78.1109 155.547 87.6399C155.547 98.9492 149.121 104.937 149.121 108.926C149.121 110.716 150.235 111.8 152.443 111.8C161.316 111.8 171.73 101.605 171.73 87.2022C171.73 73.2369 159.575 62.9722 139.184 62.9722C105.485 62.9722 75.5356 94.2147 75.5356 137.443C75.5356 170.904 94.6431 193.015 124.125 193.015C155.417 193.015 173.511 161.882 173.511 151.776C173.511 149.538 172.367 148.513 171.173 148.513Z" fill="white"/>
+</g>
+</g>
+<defs>
+<radialGradient id="paint0_radial_282_22" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(66.6325 205.264) rotate(-49.416) scale(154.683)">
+<stop stop-color="#6420FF"/>
+<stop offset="1" stop-color="#6420FF" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint1_radial_282_22" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(80.947 50.7364) rotate(54.703) scale(174.434)">
+<stop stop-color="#00C4CC"/>
+<stop offset="1" stop-color="#00C4CC" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint2_radial_282_22" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(66.6315 205.263) rotate(-45.1954) scale(152.811 70.2795)">
+<stop stop-color="#6420FF"/>
+<stop offset="1" stop-color="#6420FF" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint3_radial_282_22" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(109.789 54.9473) rotate(66.5198) scale(157.459 263.78)">
+<stop stop-color="#00C4CC" stop-opacity="0.725916"/>
+<stop offset="0.0001" stop-color="#00C4CC"/>
+<stop offset="1" stop-color="#00C4CC" stop-opacity="0"/>
+</radialGradient>
+<clipPath id="clip0_282_22">
+<rect width="200" height="200" fill="white" transform="translate(28 28)"/>
+</clipPath>
+</defs>
+</svg>
